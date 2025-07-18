@@ -1,9 +1,9 @@
 import "./App.css";
 
-export function App() {
+export const App = () => {
   return (
     <div>
       <h1>Hello React with Vite</h1>
     </div>
   );
-}
+};
