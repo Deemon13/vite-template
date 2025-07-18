@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 
 /// <reference types="vitest" />
 export default defineConfig({
-  base: "vite-template",
+  base: "/vite-template",
   plugins: [react()],
   build: {
     sourcemap: true,
